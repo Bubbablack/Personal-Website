@@ -1,0 +1,210 @@
+
+h1, h2 ,li {
+    font-family: 'Montserrat',Arial, sans-serif;
+    font-weight:bold;
+}
+p {
+
+    font-family: 'Montserrat',Arial, sans-serif;
+}
+h1 {
+    font-size: 58px;
+    margin-bottom: 40px;
+    margin-top:0;
+}
+
+h2 {
+    color:black;
+    font-size: 22px;
+    margin-bottom:10px;
+}
+
+h3 {
+    font-size:20px;
+    margin-bottom:0;
+}
+
+img {
+    max-width: 100%;
+}
+.text-center {
+    text-align:center;
+}
+
+.container {
+    max-width:1000px;
+    margin: auto;
+}
+
+.button{
+    text-decoration: none;
+    color:white;
+    Border: 1px solid white;
+    padding: 12px 40px;
+}
+.button:hover{
+    color:black;
+    background:white;
+}
+
+header{
+   
+    height: 700px;
+    color: white;
+    background-image: url('carlos-muza.jpg');
+    background-size:cover ;
+    backdrop-filter:brightness(.20);
+
+}
+/*.hero-image{
+    position:relative;
+    z-index :-1;
+}
+.hero-image:after {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    top: 0;
+    left: 0;
+    display: block;
+    content: "";
+}*/
+.hero{
+    z-index:1;
+    top:5px;
+}
+    .top-nav {
+        position: relative;
+        display: flex;
+        justify-content:space-between ;
+        padding:20px 0;
+        z-index: 1;
+
+    }
+    
+    .logo2{
+        
+        width:40%;
+    }
+    
+   .nav-links {
+        display:flex;
+        list-style-type: none;
+        text-transform:uppercase;
+        justify-content:space-between;
+    }
+    .nav-link {
+        display:flex;
+        justify-content:space-between;
+        width:130px;
+    }
+    
+    
+    a{
+        text-decoration: none;
+        color:white;
+    }
+    a:hover{
+        color:black;
+    }
+    .hero2 {
+        padding-top:80px;
+    } 
+
+    .aboutme-section {
+        display: grid;
+        grid-template-columns:2fr 3fr;
+        grid-gap:30px;
+        padding-top:40px;
+        padding: 70px 0;
+    }
+
+   
+    .skills-section {
+        background:#f2f2f2;
+        padding: 50px 0;
+    }
+        .skills {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          grid-gap: 20px;
+        }
+
+        
+        .unlilo {
+            margin-bottom:5px;
+            text-align:left;
+            margin-left:30px;
+        }
+        .icon {
+            width:90px;
+        }
+      
+        .proj-section {
+            padding: 50px 0;
+        }
+            .proj-posts {
+                color:black;
+              display: grid;
+              grid-template-columns: repeat(3, 1fr);
+              grid-gap: 30px;
+              margin: 60px 0 60px;
+              grid-template-areas:
+              "A B C";
+            }
+              #proj1 {
+                grid-area: A;
+              }
+          
+              #proj2 {
+                grid-area: B;
+              }
+          
+              #proj3 {
+                grid-area: C;
+              }
+            
+          
+          
+          footer {
+            background:black;
+            color: white;
+            padding: 40px 0;
+          }
+            .footer-content {
+              display: grid;
+              grid-template-columns:3fr 1fr;
+            }
+              #flist {
+                list-style-type: none;
+              }
+                a {
+                    padding-top: 10px;
+                  color: white;
+                }
+
+ .contacts {
+     display:grid;
+    grid-gap: 30px;
+ }               
+.whatsapp{
+    display:grid;
+    grid-template-columns:1fr;
+
+}
+.formal {
+    display:grid;
+    grid-gap: 20px;
+    grid-template-columns:1fr 1fr;
+}
+.social{
+    display:grid;
+    grid-template-columns:1fr;
+}
+.container2{
+    border: 1px solid black;
+} 
+.social{
+    background:grey;
+}
